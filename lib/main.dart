@@ -325,6 +325,9 @@ class MyHomePage extends StatelessWidget {
                                       color: AppColors.blackColor,
                                     ),
                                   ),
+                                  SizedBox(
+                                    width: 4,
+                                  ),
                                   Icon(
                                     Icons.arrow_forward_ios,
                                     size: 8,
@@ -511,6 +514,9 @@ class MyHomePage extends StatelessWidget {
                                       color: AppColors.blackColor,
                                     ),
                                   ),
+                                  SizedBox(
+                                    width: 4,
+                                  ),
                                   Icon(
                                     Icons.arrow_forward_ios,
                                     size: 8,
@@ -614,6 +620,9 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
                 Padding(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 10,
@@ -625,7 +634,8 @@ class MyHomePage extends StatelessWidget {
                       children: [
                         Container(
                           height: 40,
-                          padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 11, vertical: 10),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
@@ -654,6 +664,9 @@ class MyHomePage extends StatelessWidget {
                                         color: AppColors.blackColor,
                                       ),
                                     ),
+                                    SizedBox(
+                                      width: 4,
+                                    ),
                                     Icon(
                                       Icons.arrow_forward_ios,
                                       size: 8,
@@ -669,6 +682,258 @@ class MyHomePage extends StatelessWidget {
                           color: AppColors.blackColor,
                           height: 0.5,
                         ),
+                        SizedBox(
+                          height: 79,
+                          child: ListView(
+                            shrinkWrap: true,
+                            scrollDirection: Axis.horizontal,
+                            children: [
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/unpaid.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Unpaid",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset(
+                                        "assets/icons/shipment.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Shipment",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/cart.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Buy Again",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/group.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Group Buy",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/unpaid.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Refund",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset(
+                                        "assets/icons/shipment.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Dispute",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/cart.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Support",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/group.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Redemtion",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset("assets/icons/unpaid.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Voucher",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              SizedBox(
+                                height: 75,
+                                width: 90,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    SvgPicture.asset(
+                                        "assets/icons/shipment.svg"),
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                    const Text(
+                                      "Wishlist",
+                                      style: TextStyle(
+                                        fontStyle: FontStyle.normal,
+                                        fontFamily: "Montserrat",
+                                        color: AppColors.blackColor,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                         Padding(
                           padding: const EdgeInsets.symmetric(
                             horizontal: 10,
@@ -677,15 +942,378 @@ class MyHomePage extends StatelessWidget {
                           child: Container(
                             width: Get.width,
                             height: 69,
+                            padding: const EdgeInsets.all(7),
                             decoration: BoxDecoration(
                               color: const Color(0xffFFFFFF),
                               borderRadius: BorderRadius.circular(5),
                             ),
                             child: Row(
                               children: [
-
+                                Image.asset("assets/images/deliveryven.png"),
+                                const SizedBox(
+                                  width: 10,
+                                ),
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SizedBox(
+                                      height: 20,
+                                      child: Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.stretch,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: const [
+                                          SizedBox(
+                                            height: 20,
+                                            child: Text(
+                                              "Shipping",
+                                              style: TextStyle(
+                                                fontStyle: FontStyle.normal,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 16,
+                                                color: AppColors.blackColor,
+                                              ),
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 12,
+                                            child: Text(
+                                              "19th Oct 2022",
+                                              style: TextStyle(
+                                                  fontSize: 10,
+                                                  fontWeight: FontWeight.w400,
+                                                  fontFamily: 'Montserrat',
+                                                  fontStyle: FontStyle.normal),
+                                              textAlign: TextAlign.right,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    const SizedBox(
+                                      height: 6,
+                                    ),
+                                    SizedBox(
+                                      height: 20,
+                                      child: RichText(
+                                        text: const TextSpan(
+                                          text: "Dubai Al Barsha   ",
+                                          style: TextStyle(
+                                            fontStyle: FontStyle.normal,
+                                            fontFamily: 'Montserrat',
+                                            fontWeight: FontWeight.w400,
+                                            fontSize: 12,
+                                            color: AppColors.blackColor,
+                                          ),
+                                          children: [
+                                            TextSpan(
+                                              text: "--------",
+                                              style: TextStyle(
+                                                fontStyle: FontStyle.normal,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 12,
+                                                color: AppColors.blackColor,
+                                              ),
+                                            ),
+                                            TextSpan(
+                                              text: " Deira Dubai",
+                                              style: TextStyle(
+                                                fontStyle: FontStyle.normal,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w400,
+                                                fontSize: 12,
+                                                color: AppColors.blackColor,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ],
                             ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                  ),
+                  child: CustomCardWidget(
+                    child: Column(
+                      children: [
+                        Container(
+                          height: 40,
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 11, vertical: 10),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              const Text(
+                                "Rewards",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w700,
+                                  fontFamily: "Lato",
+                                  fontStyle: FontStyle.normal,
+                                  color: AppColors.blackColor,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 20,
+                                child: Row(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Image.asset('assets/images/image 41.png'),
+                                    const SizedBox(
+                                      width: 6,
+                                    ),
+                                    const Text(
+                                      "30",
+                                      textAlign: TextAlign.right,
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat',
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: AppColors.blackColor,
+                                      ),
+                                    ),
+                                    const SizedBox(
+                                      width: 4,
+                                    ),
+                                    const VerticalDivider(
+                                        width: 0.5,
+                                        color: AppColors.blackColor),
+                                    const SizedBox(
+                                      width: 5,
+                                    ),
+                                    Image.asset('assets/images/image 43.png'),
+                                    const SizedBox(
+                                      width: 6,
+                                    ),
+                                    const Text(
+                                      "35",
+                                      textAlign: TextAlign.right,
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat',
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: AppColors.blackColor,
+                                      ),
+                                    ),
+                                    const SizedBox(
+                                      width: 4,
+                                    ),
+                                    const VerticalDivider(
+                                        width: 0.5,
+                                        color: AppColors.blackColor),
+                                    const SizedBox(
+                                      width: 5,
+                                    ),
+                                    Image.asset('assets/images/image 47.png'),
+                                    const SizedBox(
+                                      width: 6,
+                                    ),
+                                    const Text(
+                                      "62",
+                                      textAlign: TextAlign.right,
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat',
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: AppColors.blackColor,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const Divider(
+                          color: AppColors.blackColor,
+                          height: 0.5,
+                        ),
+                        Container(
+                          width: Get.width,
+                          height: 69,
+                          margin: const EdgeInsets.symmetric(
+                            horizontal: 10,
+                            vertical: 10,
+                          ),
+                          padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+                          decoration: BoxDecoration(
+                            color: const Color(0xffFFFFFF),
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: SizedBox(
+                                  width: 90.41,
+                                  height: 46,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      SizedBox(
+                                        height: 20,
+                                        child: Row(
+                                          children: const [
+                                            Text(
+                                              "L1",
+                                              style: TextStyle(
+                                                fontStyle: FontStyle.normal,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 16,
+                                                color: AppColors.blackColor,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10,),
+                                            Text(
+                                              "3 Shares",
+                                              style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Color(0xff00E509),
+                                                  fontWeight: FontWeight.w700,
+                                                  fontFamily: 'Montserrat',
+                                                  fontStyle: FontStyle.normal),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      const SizedBox(
+                                        height: 6,
+                                      ),
+                                      const SizedBox(
+                                        height: 20,
+                                        child: Text("Benifits 30", style: TextStyle(
+                                          fontStyle: FontStyle.normal,
+                                          fontFamily: 'Montserrat',
+                                          fontWeight: FontWeight.w500,
+                                          fontSize: 12,
+                                          color: AppColors.blackColor,
+                                        ),),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: SizedBox(
+                                  width: 90.41,
+                                  height: 46,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      SizedBox(
+                                        height: 20,
+                                        child: Row(
+                                          children: const [
+                                            Text(
+                                              "L2",
+                                              style: TextStyle(
+                                                fontStyle: FontStyle.normal,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 16,
+                                                color: AppColors.blackColor,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10,),
+                                            Text(
+                                              "9 Shares",
+                                              style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Color(0xff00E509),
+                                                  fontWeight: FontWeight.w700,
+                                                  fontFamily: 'Montserrat',
+                                                  fontStyle: FontStyle.normal),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      const SizedBox(
+                                        height: 6,
+                                      ),
+                                      const SizedBox(
+                                        height: 20,
+                                        child: Text("Benifits 75", style: TextStyle(
+                                          fontStyle: FontStyle.normal,
+                                          fontFamily: 'Montserrat',
+                                          fontWeight: FontWeight.w500,
+                                          fontSize: 12,
+                                          color: AppColors.blackColor,
+                                        ),),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: SizedBox(
+                                  width: 90.41,
+                                  height: 46,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children: [
+                                      SizedBox(
+                                        height: 20,
+                                        child: Row(
+                                          children: const [
+                                            Text(
+                                              "L3",
+                                              style: TextStyle(
+                                                fontStyle: FontStyle.normal,
+                                                fontFamily: 'Montserrat',
+                                                fontWeight: FontWeight.w600,
+                                                fontSize: 16,
+                                                color: AppColors.blackColor,
+                                              ),
+                                            ),
+                                            SizedBox(width: 10,),
+                                            Text(
+                                              "18 Shares",
+                                              style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Color(0xff00E509),
+                                                  fontWeight: FontWeight.w700,
+                                                  fontFamily: 'Montserrat',
+                                                  fontStyle: FontStyle.normal),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      const SizedBox(
+                                        height: 6,
+                                      ),
+                                      const SizedBox(
+                                        height: 20,
+                                        child: Text("Benifits 98", style: TextStyle(
+                                          fontStyle: FontStyle.normal,
+                                          fontFamily: 'Montserrat',
+                                          fontWeight: FontWeight.w500,
+                                          fontSize: 12,
+                                          color: AppColors.blackColor,
+                                        ),),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
